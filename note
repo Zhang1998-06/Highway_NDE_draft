@@ -1,0 +1,26 @@
+code structure 
+code toy_generator_training.py
+difficulty: the same difficulty as the toystudy, where the distance is not a directly as state, so map it to the states is difficult.
+
+so this toy_generator_training only have one unobserved vehicle and four observed vehicle, might need to modified to have more random unobserved vehicle 
+
+
+
+
+
+load_distribution_from_csv(): average GT speed and distance
+collect_combined_distribution_with_generator()  generate speed and distance also include the observed vehicle 
+collect_data_with_generator() generate does not take observed vehicle speed and distance into account (not put into use)
+
+save_trajectories() save the trajectory for reply purpose, not put into use since we only work on generator 
+visualize_generator() Load the trained generator model
+
+generate_and_collect_distribution()#Load the trained generator and collect the generated distribution.csv file 
+plot_mean_distribution()# load the generated distribution and compare with the GT 
+
+GeneratorModel(inputdim,hidden dim)   output theta and speed 
+
+
+
+able to train but the loss is not right
+ 

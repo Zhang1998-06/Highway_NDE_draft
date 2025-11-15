@@ -1,0 +1,18 @@
+first edition: 
+policy_training copy.py:(for reference, everything in one file)
+toy_generator_training.py:(for reference, everything in one file) 
+mission:
+1 visualized the macro scopic discribution of generator, visualized the micro performance of generator
+
+2 visualized the macro scopic discribution of policy, visualized the micro scopic performance of the policy
+
+3 combine two parts and plot the macro scopic discribution and visualized the micro scopic performance of the policy.  
+
+main code:
+policy.py: PPO agent
+policy_training.py: training the policy
+single_lane_env.py: simulation env
+toy_generator_evaluation.py: evaluate the performance of generator.
+utils.py: utils
+toy_generator_training_multi.py: training the generator
+generato_model.py: this is the generator model
